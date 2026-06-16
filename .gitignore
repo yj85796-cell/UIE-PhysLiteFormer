@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch / model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Training outputs
+runs/
+outputs/
+results/
+checkpoints/
+logs/
+wandb/
+
+# Dataset files
+data/
+datasets/
+UFO-120/
+UIEB/
+LSUI/
+RUIE/
+
+# IDE / system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+*.log
